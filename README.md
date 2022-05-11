@@ -33,6 +33,10 @@ The = operator depends on the type but ensure that the pointer is moved or share
 Also any comparaison of pointers still work like real pointers by comparing them
 directly.
 
+## Use
+Simply add them at the place where you would have your other header files and
+don't forget to include them. No need to manually compile them.
+
 ## Shared Pointers
 Shared_pointers are the one that resemble traditional pointers the most,
 any number of them can point to the same element and there will be no issues,
