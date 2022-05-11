@@ -27,7 +27,7 @@ namespace ft
       o.data = NULL;
       o.allocated = false;
     }
-    explicit operator bool() const
+    operator bool() const
       {
         return (data != NULL);
       }
